@@ -1,0 +1,12 @@
+<Configurations>
+    <ipServer>localhost</ipServer>
+    <SocketPort>12345</SocketPort>
+    <RMIPort>12333</RMIPort>
+    <RespawnSeconds>4</RespawnSeconds>
+    <MoveSeconds>5</MoveSeconds>
+    <EmpowerSeconds>6</EmpowerSeconds>
+    <PingSeconds>7</PingSeconds>
+    <PingWaitingSeconds>8</PingWaitingSeconds>
+    <WaitingRoomSeconds>9</WaitingRoomSeconds>
+    <reloadGame>false</reloadGame>
+</Configurations>

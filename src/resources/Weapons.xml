@@ -1,0 +1,876 @@
+<armi>
+    <weapon>
+        <nameNotConfirmed>DISTRUTTORE</nameNotConfirmed>
+        <id>1</id>
+        <color>BLUE</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>1</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>2</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>OptionalEffect</weaponType>
+            <typeEffect>NormalShoot</typeEffect>
+            <Recoil>false</Recoil>
+            <Description>Dai 2 danni e 1 marchio a 1 bersaglio che puoi vedere</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>1</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <ultra>
+                <hasAnother>false</hasAnother>
+                <DuringBaseEffect>false</DuringBaseEffect>
+                <Yellow>0</Yellow>
+                <Red>1</Red>
+                <Blue>0</Blue>
+                <Name>Secondo Aggancio</Name>
+                <Description>Dai 1 marchio a un altro bersaglio che puoi vedere.</Description>
+                <Damage>0</Damage>
+                <Mark>1</Mark>
+                <MaxTargets>1</MaxTargets>
+                <Chain>false</Chain>
+                <OldTargetsShootable>false</OldTargetsShootable>
+                <AreaDamage>false</AreaDamage>
+                <Vortex>false</Vortex>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>MITRAGLIATRICE</nameNotConfirmed>
+        <id>2</id>
+        <color>BLUE</color>
+        <numYellow>0</numYellow>
+        <numRed>1</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>OptionalEffect</weaponType>
+            <typeEffect>NormalShoot</typeEffect>
+            <Recoil>false</Recoil>
+            <Description>Scegli 1 o 2 bersagli che puoi vedere e dai un danno ad entrambi</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>2</MaxTargets>
+            <ultra>
+                <hasAnother>true</hasAnother>
+                <DuringBaseEffect>false</DuringBaseEffect>
+                <Name>Colpo focalizzato</Name>
+                <Description> Dai 1 danno aggiuntivo a uno dei due bersagli</Description>
+                <Yellow>1</Yellow>
+                <Red>0</Red>
+                <Blue>0</Blue>
+                <Damage>1</Damage>
+                <Mark>0</Mark>
+                <MaxTargets>1</MaxTargets>
+                <Chain>false</Chain>
+                <OldTargetsShootable>true</OldTargetsShootable>
+                <AreaDamage>false</AreaDamage>
+                <Vortex>false</Vortex>
+                <ultra2>
+                    <hasAnother>false</hasAnother>
+                    <DuringBaseEffect>false</DuringBaseEffect>
+                    <Name>Tripode di supporto</Name>
+                    <Description>Dai 1 danno aggiuntivo all'altro dei bersagli e/o dai 1 danno a un bersaglio differente che puoi vedere.</Description>
+                    <Yellow>0</Yellow>
+                    <Red>0</Red>
+                    <Blue>1</Blue>
+                    <Damage>1</Damage>
+                    <Mark>0</Mark>
+                    <MaxTargets>1</MaxTargets>
+                    <Chain>false</Chain>
+                    <OldTargetsShootable>false</OldTargetsShootable>
+                    <AreaDamage>false</AreaDamage>
+                    <Vortex>false</Vortex>
+                </ultra2>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>TORPEDINE</nameNotConfirmed>
+        <id>3</id>
+        <color>BLUE</color>
+        <numYellow>0</numYellow>
+        <numRed>1</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>NormalShoot</typeEffect>
+            <weaponType>OptionalEffect</weaponType>
+            <Name>Modalità base</Name>
+            <Recoil>false</Recoil>
+            <Description>Dai 2 danni a 1 bersaglio che puoi vedere</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <ultra>
+                <hasAnother>true</hasAnother>
+                <DuringBaseEffect>false</DuringBaseEffect>
+                <Name>Reazione a Catena</Name>
+                <Description>Dai 1 danno a un secondo bersaglio che il tuo primo bersaglio può vedere. </Description>
+                <Yellow>0</Yellow>
+                <Red>0</Red>
+                <Blue>1</Blue>
+                <Damage>1</Damage>
+                <Mark>0</Mark>
+                <MaxTargets>1</MaxTargets>
+                <Chain>true</Chain>
+                <OldTargetsShootable>false</OldTargetsShootable>
+                <AreaDamage>false</AreaDamage>
+                <Vortex>false</Vortex>
+                <ultra2>
+                    <hasAnother>false</hasAnother>
+                    <DuringBaseEffect>false</DuringBaseEffect>
+                    <Name>Alta tensione</Name>
+                    <Description>Dai 2 danni a un terzo bersaglio che il tuo secondo bersaglio può vedere. Non puoi usare questo effetto se prima non hai usato reazione a catena. </Description>
+                    <Yellow>0</Yellow>
+                    <Red>0</Red>
+                    <Blue>1</Blue>
+                    <Damage>2</Damage>
+                    <Mark>0</Mark>
+                    <MaxTargets>1</MaxTargets>
+                    <Chain>true</Chain>
+                    <OldTargetsShootable>false</OldTargetsShootable>
+                    <AreaDamage>false</AreaDamage>
+                    <Vortex>false</Vortex>
+                </ultra2>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>FUCILE AL PLASMA</nameNotConfirmed>
+        <id>4</id>
+        <color>BLUE</color>
+        <numYellow>1</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>true</hasMoveEffect>
+        <movementName>Slittamento di fase</movementName>
+        <movementDescription> Muovi di 1 o 2 quadrati. Questo effetto può essere usato prima o dopo l'effetto base.</movementDescription>
+        <movementMaxSteps>2</movementMaxSteps>
+        <moveYellow>0</moveYellow>
+        <moveRed>0</moveRed>
+        <moveBlue>0</moveBlue>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>OptionalEffect</weaponType>
+            <typeEffect>NormalShoot</typeEffect>
+            <Recoil>false</Recoil>
+            <Description>Dai 2 danni a 1 bersaglio che puoi vedere</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <ultra>
+                <hasAnother>false</hasAnother>
+                <DuringBaseEffect>false</DuringBaseEffect>
+                <Yellow>0</Yellow>
+                <Red>0</Red>
+                <Blue>1</Blue>
+                <Name>Colpo sovraccarico</Name>
+                <Description>Dai 1 danno aggiuntivo al tuo bersaglio. </Description>
+                <Damage>1</Damage>
+                <Mark>0</Mark>
+                <MaxTargets>1</MaxTargets>
+                <Chain>false</Chain>
+                <OldTargetsShootable>true</OldTargetsShootable>
+                <AreaDamage>false</AreaDamage>
+                <Vortex>false</Vortex>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>FUCILE DI PRECISIONE</nameNotConfirmed>
+        <id>5</id>
+        <color>BLUE</color>
+        <numYellow>1</numYellow>
+        <numRed>0</numRed>
+        <numBlue>1</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>2</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>RangedShoot</typeEffect>
+            <Recoil>false</Recoil>
+            <Description>Dai 3 danni e 1 marchio a 1 bersaglio che puoi vedere. Il bersaglio deve essere ad almeno 2 movimenti da te.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>3</Damage>
+            <Mark>1</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>2</MinRange>
+            <MaxRange>5</MaxRange>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>FALCE PROTONICA</nameNotConfirmed>
+        <id>6</id>
+        <color>BLUE</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>MultipleShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità base</Name>
+            <Description>Dai 1 danno a ogni altro giocatore presente nel quadrato in cui ti trovi.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+            <Room>false</Room>
+        </effect>
+        <effect>
+            <typeEffect>MultipleShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità mietitore</Name>
+            <Description>Dai 2 danni a ogni altro giocatore presente nel quadrato in cui ti trovi.</Description>
+            <Red>1</Red>
+            <Blue>1</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+            <Room>false</Room>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>RAGGIO TRAENTE</nameNotConfirmed>
+        <id>7</id>
+        <color>BLUE</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>VortexShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità base</Name>
+            <Description>Muovi un bersaglio di 0, 1 o 2 quadrati fino a un quadrato che puoi vedere e dagli 1 danno.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <MinRange>0</MinRange>
+            <MaxRange>20</MaxRange>
+            <TargetSteps>2</TargetSteps>
+        </effect>
+        <effect>
+            <typeEffect>VortexShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità punitore</Name>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Description>Scegli un bersaglio 0, 1, o 2 movimenti da te. Muovi quel bersaglio nel quadrato in cui ti trovi e dagli 3 danni.</Description>
+            <Red>1</Red>
+            <Blue>0</Blue>
+            <Yellow>1</Yellow>
+            <Damage>3</Damage>
+            <Mark>0</Mark>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+            <TargetSteps>2</TargetSteps>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>CANNONE VORTEX</nameNotConfirmed>
+        <id>8</id>
+        <color>RED</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>1</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <typeEffect>VortexShoot</typeEffect>
+            <weaponType>OptionalEffect</weaponType>
+            <Description>Scegli un quadrato che puoi vedere ad almeno 1 movimento di distanza. Un vortice si aprirà in quel punto.Scegli 1 bersaglio nel quadrato in cui si trova il vortice o distante un movimento.Muovi il bersaglio in cui si trova il vortice e dagli 2 danni</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <MinRange>1</MinRange>
+            <MaxRange>20</MaxRange>
+            <TargetSteps>1</TargetSteps>
+            <ultra>
+                <hasAnother>false</hasAnother>
+                <DuringBaseEffect>false</DuringBaseEffect>
+                <Yellow>0</Yellow>
+                <Red>1</Red>
+                <Blue>0</Blue>
+                <Name>Buco Nero</Name>
+                <Description>Scegli fino ad altri 2 bersagli nel quadrato in cui si trova il vortice o distanti 1 movimento. Muovili nel quadrato in cui si trova il vortice e dai loro 1 danno ciascuno. </Description>
+                <Damage>1</Damage>
+                <Mark>0</Mark>
+                <MaxTargets>2</MaxTargets>
+                <Chain>false</Chain>
+                <OldTargetsShootable>false</OldTargetsShootable>
+                <AreaDamage>false</AreaDamage>
+                <Vortex>true</Vortex>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>VULCANIZZATORE</nameNotConfirmed>
+        <id>9</id>
+        <color>RED</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>1</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <weaponType>AlternativeFireMode</weaponType>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>MultipleShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità base</Name>
+            <Description>Scegli una stanza che puoi vedere,ma non la stanza in cui ti trovi. Dai 1 danno a ognuno in quella stanza.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <Room>true</Room>
+            <MinRange>1</MinRange>
+            <MaxRange>5</MaxRange>
+        </effect>
+        <effect>
+            <typeEffect>MultipleShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità fuoco confortevole</Name>
+            <Description>Scegli un quadrato distante esattamente un movimento. Dai 1 danno e 1 marchio a ognuno in quel quadrato.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>1</Mark>
+            <Room>false</Room>
+            <MinRange>1</MinRange>
+            <MaxRange>1</MaxRange>
+        </effect>
+    </weapon>
+    <weapon>
+        <id>10</id>
+        <nameNotConfirmed>RAZZO TERMICO</nameNotConfirmed>
+        <color>RED</color>
+        <numYellow>1</numYellow>
+        <numRed>1</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>2</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>NormalShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Mdalità base</Name>
+            <Recoil>false</Recoil>
+            <Description>Scegli 1 bersaglio che non puoi vedere e dagli 3 danni</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>3</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>false</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>RAGGIO SOLARE</nameNotConfirmed>
+        <id>11</id>
+        <color>RED</color>
+        <numYellow>1</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>ExplosiveShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità base</Name>
+            <Description>Dai 1 danno a 1 bersaglio che puoi vedere e distante almeno 1 movimento. Poi dai 1 marchio a quel bersaglio e a chiunque altro nel quadrato.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <AreaDamage>0</AreaDamage>
+            <AreaMarks>1</AreaMarks>
+        </effect>
+        <effect>
+            <typeEffect>ExplosiveShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità nano-traccianti</Name>
+            <Description>Dai 1 danno a 1 bersaglio che puoi vedere e distante almeno 1 movimento. Poi dai 2 marchi a quel bersaglio e a chiunque altro nel quadrato.</Description>
+            <Red>1</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <AreaDamage>0</AreaDamage>
+            <AreaMarks>2</AreaMarks>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>LANCIAFIAMME</nameNotConfirmed>
+        <id>12</id>
+        <color>RED</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <typeEffect>DirectionalShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Description>Scegli 1 quadrato distante 1 movimento e possibilmente un secondo quadrato distante ancora 1 movimento nella stessa direzione.In ogni quadrato puoi scegliere 1 bersaglio e dargli 1 danno.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <MaxTargets>2</MaxTargets>
+            <MaxRange>2</MaxRange>
+            <Decreased>false</Decreased>
+            <Cyber>false</Cyber>
+        </effect>
+        <effect>
+            <typeEffect>MultipleDirectionalShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità barbecue</Name>
+            <Description>Scegli 2 quadrati come prima. Dai 2 danni a chiunque sia nel primo quadrato e 1 danno a chiunque si trovi nel secondo quadrato.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>2</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <MaxRange>2</MaxRange>
+            <Decreased>true</Decreased>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>LANCIAGRANATE</nameNotConfirmed>
+        <id>13</id>
+        <color>RED</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <weaponType>OptionalEffect</weaponType>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>NormalShoot</typeEffect>
+            <weaponType>OptionalEffect</weaponType>
+            <Name>Modalità base</Name>
+            <Recoil>true</Recoil>
+            <Steps>1</Steps>
+            <Description>Dai 1 danno a 1 bersaglio che puoi vedere.Poi puoi muovere il bersaglio di 1 quadrato</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <ultra>
+                <hasAnother>false</hasAnother>
+                <DuringBaseEffect>true</DuringBaseEffect>
+                <Yellow>0</Yellow>
+                <Red>1</Red>
+                <Blue>0</Blue>
+                <Name>Granata Extra</Name>
+                <Description> Dai 1 danno a ogni giocatore in quadrato che puoi vedere. Puoi usare questo effetto prima o dopo il movimento dell'effetto base. </Description>
+                <Damage>1</Damage>
+                <Mark>0</Mark>
+                <MaxTargets>0</MaxTargets>
+                <Chain>false</Chain>
+                <OldTargetsShootable>false</OldTargetsShootable>
+                <AreaDamage>true</AreaDamage>
+                <Vortex>false</Vortex>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>LANCIARAZZI</nameNotConfirmed>
+        <id>14</id>
+        <color>RED</color>
+        <numYellow>0</numYellow>
+        <numRed>1</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>0</recnumYellow>
+        <recnumRed>2</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>true</hasMoveEffect>
+        <movementName>Razzi portatili</movementName>
+        <movementDescription>Muovi di 1 o 2 quadrati. Questo effetto può essere usato prima o dopo l'effetto base.</movementDescription>
+        <movementMaxSteps>2</movementMaxSteps>
+        <moveYellow>0</moveYellow>
+        <moveRed>0</moveRed>
+        <moveBlue>1</moveBlue>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>RangedShoot</typeEffect>
+            <Recoil>true</Recoil>
+            <Steps>1</Steps>
+            <Description>Dai 2 danni a 1 bersaglio che puoi vedere e che non si trova nel tuo quadrato.  Poi puoi muovere il bersaglio di 1 quadrato</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>1</MinRange>
+            <MaxRange>5</MaxRange>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>FUCILE LASER</nameNotConfirmed>
+        <id>15</id>
+        <color>YELLOW</color>
+        <numYellow>1</numYellow>
+        <numRed>0</numRed>
+        <numBlue>1</numBlue>
+        <recnumYellow>2</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>LaserShoot</typeEffect>
+            <Name>Modalità base</Name>
+            <Description>Scegli 1 direzione cardinale e 1 bersaglio in quella direzione. Dagli 3 danni</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>3</Damage>
+            <Mark>0</Mark>
+            <MaxTargets>1</MaxTargets>
+        </effect>
+        <effect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>LaserShoot</typeEffect>
+            <Name>Modalità perforazione</Name>
+            <Description>Scegli una direzione cardinale e 1 o 2 bersagli in quella direzione. Dai 2 danni a ciascuno.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+        <MaxTargets>2</MaxTargets>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>SPADA FOTONICA</nameNotConfirmed>
+        <id>16</id>
+        <color>YELLOW</color>
+        <numYellow>0</numYellow>
+        <numRed>1</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>true</hasMoveEffect>
+        <movementName>Passo d'ombra</movementName>
+        <movementDescription>Muovi di 1 quadrato prima o dopo l'effetto base.</movementDescription>
+        <movementMaxSteps>1</movementMaxSteps>
+        <moveYellow>0</moveYellow>
+        <moveRed>0</moveRed>
+        <moveBlue>0</moveBlue>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>OptionalEffect</weaponType>
+            <typeEffect>RangedShoot</typeEffect>
+            <Recoil>false</Recoil>
+            <Description>Dai 2 danni a 1 bersaglio nel quadrato in cui ti trovi</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+            <ultra>
+                <hasAnother>false</hasAnother>
+                <DuringBaseEffect>false</DuringBaseEffect>
+                <Yellow>1</Yellow>
+                <Red>0</Red>
+                <Blue>0</Blue>
+                <Name>Modalità sminuzzare</Name>
+                <Description> Dai 2 danni a un bersaglio differente nel quadrato in cui ti trovi. Il passo d'ombra può essere usato prima o dopo questo effetto. </Description>
+                <Damage>2</Damage>
+                <Mark>0</Mark>
+                <MaxTargets>1</MaxTargets>
+                <Chain>false</Chain>
+                <OldTargetsShootable>false</OldTargetsShootable>
+                <AreaDamage>false</AreaDamage>
+                <Vortex>false</Vortex>
+            </ultra>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>ZX-2</nameNotConfirmed>
+        <id>17</id>
+        <color>YELLOW</color>
+        <numYellow>0</numYellow>
+        <numRed>1</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>1</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>NormalShoot</typeEffect>
+            <Recoil>false</Recoil>
+            <Description>Dai 1 danno e 2 marchi a 1 bersaglio che puoi vedere.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>2</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+        </effect>
+        <effect>
+            <typeEffect>NormalShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità scanner</Name>
+            <Recoil>false</Recoil>
+            <Description>Scegli fino a 3 bersagli che puoi vedere e dai 1 marchio ciascuno.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>0</Damage>
+            <Mark>1</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>3</MaxTargets>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>FUCILE A POMPA</nameNotConfirmed>
+        <id>18</id>
+        <color>YELLOW</color>
+        <numYellow>1</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>2</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>RangedShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità base</Name>
+            <Recoil>true</Recoil>
+            <Steps>1</Steps>
+            <Description>Dai 3 danni a 1 bersaglio nel quadrato in cui ti trovi. Se vuoi puoi muovere quel bersaglio di 1 quadrato.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>3</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+        </effect>
+        <effect>
+            <typeEffect>RangedShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità canna lunga</Name>
+            <Recoil>false</Recoil>
+            <Description>Dai 2 danni a 1 bersaglio in un quadrato distante esattamente 1 movimento.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>1</MinRange>
+            <MaxRange>1</MaxRange>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>CYBERGUANTO</nameNotConfirmed>
+        <id>19</id>
+        <color>YELLOW</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>1</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>1</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>DirectionalShoot</typeEffect>
+            <Description>Scegli 1 bersaglio in un quadrato distante esattamente 1 movimento. Muovi in quel quadrato e dai al bersaglio 1 danno e 2 marchi.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>2</Mark>
+            <Decreased>false</Decreased>
+            <Cyber>true</Cyber>
+            <MaxTargets>1</MaxTargets>
+            <MaxRange>1</MaxRange>
+        </effect>
+        <effect>
+            <typeEffect>DirectionalShoot</typeEffect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Name>Modalità cento pugni</Name>
+            <Description>Scegli un quadrato distante esattamente un movimento. Muovi in quel quadrato. Puoi dare 2 danni a 1 bersaglio in quel quadrato. Se vuoi puoi muovere ancora di 1 quadrato nella stessa direzione (ma solo se è un movimento valido). Puoi dare 2 danni a un bersaglio anche in quel quadrato.</Description>
+            <Red>0</Red>
+            <Blue>1</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <Decreased>false</Decreased>
+            <Cyber>true</Cyber>
+            <MaxTargets>2</MaxTargets>
+            <MaxRange>2</MaxRange>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>ONDA D'URTO</nameNotConfirmed>
+        <id>20</id>
+        <color>YELLOW</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <Name>Modalità base</Name>
+            <weaponType>AlternativeFireMode</weaponType>
+            <typeEffect>WaveShoot</typeEffect>
+            <Description>Scegli fino a 3 bersagli su quadrati differenti, ognuno distante esattamente 1 movimento. Dai 1 danno a ogni bersaglio.</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+            <MaxTargets>3</MaxTargets>
+        </effect>
+        <effect>
+            <weaponType>AlternativeFireMode</weaponType>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>1</Yellow>
+            <Name>Modalità tsunami</Name>
+            <typeEffect>WaveMultipleShoot</typeEffect>
+            <Description>Dai 1 danno a tutti i bersagli che sono distanti esattamente 1 movimento.</Description>
+            <Damage>1</Damage>
+            <Mark>0</Mark>
+        </effect>
+    </weapon>
+    <weapon>
+        <nameNotConfirmed>MARTELLO IONICO</nameNotConfirmed>
+        <id>21</id>
+        <color>YELLOW</color>
+        <numYellow>0</numYellow>
+        <numRed>0</numRed>
+        <numBlue>0</numBlue>
+        <recnumYellow>1</recnumYellow>
+        <recnumRed>0</recnumRed>
+        <recnumBlue>0</recnumBlue>
+        <hasMoveEffect>false</hasMoveEffect>
+        <effect>
+            <typeEffect>RangedShoot</typeEffect>
+            <weaponType>DifferentFireMode</weaponType>
+            <Name>Modalità base</Name>
+            <Recoil>false</Recoil>
+            <Description>Dai 2 danni a 1 bersaglio nel quadrato in cui ti trovi</Description>
+            <Red>0</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Damage>2</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+        </effect>
+        <effect>
+            <typeEffect>RangedShoot</typeEffect>
+            <weaponType>DifferentFireMode</weaponType>
+            <Name>Modalità polverizzare</Name>
+            <Description>Dai 3 danni a 1 bersaglio nel quadrato in cui ti trovi, poi muovi quel bersaglio di 0, 1 o 2 quadrati in una direzione.</Description>
+            <Red>1</Red>
+            <Blue>0</Blue>
+            <Yellow>0</Yellow>
+            <Recoil>true</Recoil>
+            <Steps>2</Steps>
+            <Damage>3</Damage>
+            <Mark>0</Mark>
+            <ShootVisible>true</ShootVisible>
+            <MaxTargets>1</MaxTargets>
+            <MinRange>0</MinRange>
+            <MaxRange>0</MaxRange>
+        </effect>
+    </weapon>
+</armi>

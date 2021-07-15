@@ -1,0 +1,32 @@
+.backgroundRoot{
+    -fx-background-image: url(images/maps/sfondo.png);
+    -fx-background-size: 100% 100%;
+    -fx-background-position: 200;
+}
+.backgroundRootFF{
+    -fx-background-image: url(images/maps/sfondoFF.png);
+    -fx-background-size: 100% 100%;
+    -fx-background-position: 200;
+}
+
+.backgroundGameBoard1{
+    -fx-background-image: url(images/maps/Mappa1.png);
+    -fx-background-size: 100% 100%;
+}
+.backgroundGameBoard2{
+    -fx-background-image: url(images/maps/Mappa2.png);
+    -fx-background-size: 100% 100%;
+}
+.backgroundGameBoard3{
+    -fx-background-image: url(images/maps/Mappa3.png);
+    -fx-background-size: 100% 100%;
+}
+.backgroundGameBoard4{
+    -fx-background-image: url(images/maps/Mappa4.png);
+    -fx-background-size: 100% 100%;
+}
+
+.border{
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 600 750;
+}

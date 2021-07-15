@@ -1,0 +1,195 @@
+<potenziamenti>
+    <empower>
+        <nameNotConfirmed>Mirino</nameNotConfirmed>
+        <id>1</id>
+        <description>Puoi giocare questa carta quando stai dando danno ad uno o più bersagli.Paga un cubo munizioni di qualsiasi colore.Scegli uno dei bersagli e dagli 1 segnalino danno aggiuntivo.</description>
+        <color>BLUE</color>
+        <type>TARGETING SCOPE</type>
+        <paycube>true</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Mirino</nameNotConfirmed>
+        <id>2</id>
+        <description>Puoi giocare questa carta quando stai dando danno ad uno o più bersagli.Paga un cubo munizioni di qualsiasi colore.Scegli uno dei bersagli e dagli 1 segnalino danno aggiuntivo.</description>
+        <color>BLUE</color>
+        <type>TARGETING SCOPE</type>
+        <paycube>true</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Mirino</nameNotConfirmed>
+        <id>3</id>
+        <description>Puoi giocare questa carta quando stai dando danno ad uno o più bersagli.Paga un cubo munizioni di qualsiasi colore.Scegli uno dei bersagli e dagli 1 segnalino danno aggiuntivo.</description>
+        <color>YELLOW</color>
+        <type>TARGETING SCOPE</type>
+        <paycube>true</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Mirino</nameNotConfirmed>
+        <id>4</id>
+        <description>Puoi giocare questa carta quando stai dando danno ad uno o più bersagli.Paga un cubo munizioni di qualsiasi colore.Scegli uno dei bersagli e dagli 1 segnalino danno aggiuntivo.</description>
+        <color>YELLOW</color>
+        <type>TARGETING SCOPE</type>
+        <paycube>true</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Mirino</nameNotConfirmed>
+        <id>5</id>
+        <description>Puoi giocare questa carta quando stai dando danno ad uno o più bersagli.Paga un cubo munizioni di qualsiasi colore.Scegli uno dei bersagli e dagli 1 segnalino danno aggiuntivo.</description>
+        <color>RED</color>
+        <type>TARGETING SCOPE</type>
+        <paycube>true</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Mirino</nameNotConfirmed>
+        <id>6</id>
+        <description>Puoi giocare questa carta quando stai dando danno ad uno o più bersagli.Paga un cubo munizioni di qualsiasi colore.Scegli uno dei bersagli e dagli 1 segnalino danno aggiuntivo.</description>
+        <color>RED</color>
+        <type>TARGETING SCOPE</type>
+        <paycube>true</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Raggio Cinetico</nameNotConfirmed>
+        <id>7</id>
+        <description>Puoi giocare questa carta nel tuo turno, prima o dopo aver svolto qualsiasi azione. Scegli la minatura di un altro giocatore e muovila di 1 o 2 quadrati in una direzione.</description>
+        <color>YELLOW</color>
+        <type>NEWTON</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Raggio Cinetico</nameNotConfirmed>
+        <id>8</id>
+        <description>Puoi giocare questa carta nel tuo turno, prima o dopo aver svolto qualsiasi azione. Scegli la minatura di un altro giocatore e muovila di 1 o 2 quadrati in una direzione.</description>
+        <color>YELLOW</color>
+        <type>NEWTON</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Raggio Cinetico</nameNotConfirmed>
+        <id>9</id>
+        <description>Puoi giocare questa carta nel tuo turno, prima o dopo aver svolto qualsiasi azione. Scegli la minatura di un altro giocatore e muovila di 1 o 2 quadrati in una direzione.</description>
+        <color>RED</color>
+        <type>NEWTON</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Raggio Cinetico</nameNotConfirmed>
+        <id>10</id>
+        <description>Puoi giocare questa carta nel tuo turno, prima o dopo aver svolto qualsiasi azione. Scegli la minatura di un altro giocatore e muovila di 1 o 2 quadrati in una direzione.</description>
+        <color>RED</color>
+        <type>NEWTON</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Raggio Cinetico</nameNotConfirmed>
+        <id>11</id>
+        <description>Puoi giocare questa carta nel tuo turno, prima o dopo aver svolto qualsiasi azione. Scegli la minatura di un altro giocatore e muovila di 1 o 2 quadrati in una direzione.</description>
+        <color>BLUE</color>
+        <type>NEWTON</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Raggio Cinetico</nameNotConfirmed>
+        <id>12</id>
+        <description>Puoi giocare questa carta nel tuo turno, prima o dopo aver svolto qualsiasi azione. Scegli la minatura di un altro giocatore e muovila di 1 o 2 quadrati in una direzione.</description>
+        <color>BLUE</color>
+        <type>NEWTON</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Granata Venom</nameNotConfirmed>
+        <id>13</id>
+        <description>Puoi giocare questa carta quando ricevi un danno da un giocatore che puoi vedere. Dai un marchio a quel giocatore</description>
+        <color>YELLOW</color>
+        <type>TAGBACK GRANADE</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Granata Venom</nameNotConfirmed>
+        <id>14</id>
+        <description>Puoi giocare questa carta quando ricevi un danno da un giocatore che puoi vedere. Dai un marchio a quel giocatore</description>
+        <color>YELLOW</color>
+        <type>TAGBACK GRANADE</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Granata Venom</nameNotConfirmed>
+        <id>15</id>
+        <description>Puoi giocare questa carta quando ricevi un danno da un giocatore che puoi vedere. Dai un marchio a quel giocatore</description>
+        <color>RED</color>
+        <type>TAGBACK GRANADE</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Granata Venom</nameNotConfirmed>
+        <id>16</id>
+        <description>Puoi giocare questa carta quando ricevi un danno da un giocatore che puoi vedere. Dai un marchio a quel giocatore</description>
+        <color>RED</color>
+        <type>TAGBACK GRANADE</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Granata Venom</nameNotConfirmed>
+        <id>17</id>
+        <description>Puoi giocare questa carta quando ricevi un danno da un giocatore che puoi vedere. Dai un marchio a quel giocatore</description>
+        <color>BLUE</color>
+        <type>TAGBACK GRANADE</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Granata Venom</nameNotConfirmed>
+        <id>18</id>
+        <description>Puoi giocare questa carta quando ricevi un danno da un giocatore che puoi vedere. Dai un marchio a quel giocatore</description>
+        <color>BLUE</color>
+        <type>TAGBACK GRANADE</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Teletrasporto</nameNotConfirmed>
+        <id>19</id>
+        <description>Puoi giocare questa carta nel tuo turno prima o dopo aver svolto qualsiasi azione. Prendi la tua miniatura e piazzala in un qualsiasi quadrato sulla plancia.</description>
+        <color>YELLOW</color>
+        <type>TELEPORTER</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Teletrasporto</nameNotConfirmed>
+        <id>20</id>
+        <description>Puoi giocare questa carta nel tuo turno prima o dopo aver svolto qualsiasi azione. Prendi la tua miniatura e piazzala in un qualsiasi quadrato sulla plancia.</description>
+        <color>YELLOW</color>
+        <type>TELEPORTER</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Teletrasporto</nameNotConfirmed>
+        <id>21</id>
+        <description>Puoi giocare questa carta nel tuo turno prima o dopo aver svolto qualsiasi azione. Prendi la tua miniatura e piazzala in un qualsiasi quadrato sulla plancia.</description>
+        <color>RED</color>
+        <type>TELEPORTER</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Teletrasporto</nameNotConfirmed>
+        <id>22</id>
+        <description>Puoi giocare questa carta nel tuo turno prima o dopo aver svolto qualsiasi azione. Prendi la tua miniatura e piazzala in un qualsiasi quadrato sulla plancia.</description>
+        <color>RED</color>
+        <type>TELEPORTER</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Teletrasporto</nameNotConfirmed>
+        <id>23</id>
+        <description>Puoi giocare questa carta nel tuo turno prima o dopo aver svolto qualsiasi azione. Prendi la tua miniatura e piazzala in un qualsiasi quadrato sulla plancia.</description>
+        <color>BLUE</color>
+        <type>TELEPORTER</type>
+        <paycube>false</paycube>
+    </empower>
+    <empower>
+        <nameNotConfirmed>Teletrasporto</nameNotConfirmed>
+        <id>24</id>
+        <description>Puoi giocare questa carta nel tuo turno prima o dopo aver svolto qualsiasi azione. Prendi la tua miniatura e piazzala in un qualsiasi quadrato sulla plancia.</description>
+        <color>BLUE</color>
+        <type>TELEPORTER</type>
+        <paycube>false</paycube>
+    </empower>
+</potenziamenti>
+
